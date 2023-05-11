@@ -1,0 +1,384 @@
+<?html include "site-info.html";?>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Bredh | responsive HTML & WHMCS theme for webhosting, domains and services providers" />
+        <meta name="author" content="coodiv.net (nedjai mohamed)" />
+        <link rel="canonical" href="https://coodiv.net" />
+        <link rel="icon" href="favicon.ico" />
+        <title><?html echo $name;?> | <?html echo $slogan;?></title>
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Bredh template" />
+        <meta property="og:description" content="A responsive HTML & WHMCS theme for webhosting, domains and services providers" />
+        <meta property="og:url" content="https://coodiv.net" />
+        <meta property="og:site_name" content="Coodiv | bredh template" />
+        <meta property="og:image" content="https://coodiv.net/blog/wp-content/uploads/2022/05/placeholder.jpg" />
+        <meta property="og:image:width" content="1800" />
+        <meta property="og:image:height" content="900" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@coodiv" />
+
+        <!-- Bootstrap , fonts & icons -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="icons-pack/fontawesome-5/css/all.css" rel="stylesheet" />
+
+        <!-- main css file -->
+        <link href="css/main.min.css" rel="stylesheet" />
+
+    </head>
+
+    <body>
+        <!-- start body -->
+
+        <div class="preloader">
+            <!-- start preloader -->
+            <div class="preloader-container">
+                <svg version="1.1" id="L5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+                    <circle fill="#675cda" stroke="none" cx="6" cy="50" r="6">
+                        <animateTransform attributeName="transform" dur="1s" type="translate" values="0 15 ; 0 -15; 0 15" repeatCount="indefinite" begin="0.1" />
+                    </circle>
+                    <circle fill="#675cda" stroke="none" cx="30" cy="50" r="6">
+                        <animateTransform attributeName="transform" dur="1s" type="translate" values="0 10 ; 0 -10; 0 10" repeatCount="indefinite" begin="0.2" />
+                    </circle>
+                    <circle fill="#675cda" stroke="none" cx="54" cy="50" r="6">
+                        <animateTransform attributeName="transform" dur="1s" type="translate" values="0 5 ; 0 -5; 0 5" repeatCount="indefinite" begin="0.3" />
+                    </circle>
+                </svg>
+                <span>loading</span>
+            </div>
+        </div>
+        <!-- end preloader -->
+
+        <div id="coodiv-header" class="d-flex mx-auto flex-column moon-edition homepage">
+            <!-- start header -->
+            <div class="bg_overlay_header">
+                <div id="particles-bg"></div>
+                <div class="cloud-bg"></div>
+                <div class="bg-img-header-new-moon">&nbsp;</div>
+                <span class="header-shapes shape-03"></span>
+            </div>
+            <!-- Fixed navbar -->
+            <nav id="coodiv-navbar-header" class="navbar navbar-expand-md fixed-header-layout">
+                <div class="container main-header-coodiv-s">
+                    <a class="navbar-brand" href="index.php">
+                        <img class="w-logo" src="<?php echo $logo;?>" alt="" />
+                        <img class="b-logo" src="<?php echo $logo;?>" alt="" />
+                    </a>
+                    <button class="navbar-toggle offcanvas-toggle menu-btn-span-bar ml-auto" data-toggle="offcanvas" data-target="#offcanvas-menu-home">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="collapse navbar-collapse navbar-offcanvas" id="offcanvas-menu-home">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item mega-menu demos-dropdown dropdown active">
+                                <a class="nav-link" href="#" role="button" id="header-first-drop-down" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" role="button" id="webhosting-megamenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Global Hosting</a>
+                                <div class="dropdown-menu coodiv-menu-dropdown coodiv-dropdown-header web-menu" aria-labelledby="webhosting-megamenu">
+                                    <div class="dropdown-menu-wrapper min-padding">
+                                        <ul class="web-hosting-menu-header">
+                                            <li>
+                                                <a href="cloud-hosting.html">Pay Per Use Cloud Hosting</a>
+                                            </li>
+                                            <li>
+                                                <a href="premium-cpanel.html">Premium cPanel Hosting </a>
+                                            </li>
+                                            <li>
+                                                <a href="cpanel-reseller.html">cPanel Reseller Hosting</a>
+                                            </li>
+                                            <li>
+                                                <a href="cpanel-vps-server.html">cPanel Vps Server Hosting</a>
+                                            </li>
+                                            <li>
+                                                <a href="student-hosting.html">Student Hosting</a>
+                                            </li>
+                                            <li>
+                                                <a href="bundle-hosting.html">Hosting Bundle Free Domain</a>
+                                            </li>
+                                            <li>
+                                                <a href="smm-web-hosting.html">SMM Optimaized Hosting </a>
+                                            </li>
+                                            <li>
+                                                <a href="dmca-ignored-hosting.html">DMCA Ignored Hosting </a>
+                                            </li>
+                                            <li>
+                                                <a href="budget-web-hosting.html">Budget Web Hosting </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" role="button" id="header-help-drop-down" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BDIX Hosting<span class="sr-only">(current)</span></a>
+                                <ul class="dropdown-menu coodiv-menu-dropdown coodiv-dropdown-header" aria-labelledby="header-help-drop-down">
+                                    <div class="dropdown-menu-wrapper min-padding">
+                                        <li><a class="dropdown-item" href="bdix-budget-hosting.html">BDIX Budget Hosting</a></li>
+                                        <li><a class="dropdown-item" href="bdix-premium-hosting.html">BDIX Premium Hosting</a></li>
+                                        <li><a class="dropdown-item" href="bdix-reseller-hosting.html">BDIX Reseller Hosting</a></li>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="https://panel.amarhoster.com/aff.html?aff=<?html echo $affiliate_id;?>">Register A New Domain</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="header-user-info-coodiv">
+                        <li class="dropdown">
+                        <a role="button" id="header-login-dropdown" href="<?html echo $btn_link;?>"><?html echo $btn_text;?></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main class="container d-flex align-items-center h-100">
+                <div class="carousel carousel-main w-100">
+                    <div class="carousel-cell">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8 col-12 white-text">
+                                <h3 class="main-header-title coodiv-text-3">কম খরচে নির্ভরযোগ্য
+ওয়েব হোস্টিং পরিষেবা</h3>
+                                <p class="main-header-sub-title coodiv-text-10 font-weight-light mb-10">ওয়েবসাইট এর জন্য বিশ্বস্ত এবং ফাস্ট ওয়েব হোস্টিং অবকাঠামো প্রয়োজন। আমরা ওয়েবসাইট তৈরির প্রয়োজনীয় সামগ্রী দীর্ঘ ৫ বছর ধরে গৌরবের সাথে সরবরাহ করে আসছি। </p>
+                                <p class="main-header-sub-title coodiv-text-10 font-weight-light mb-10">
+আমার হোস্টারের সাথে কম খরচে এন্টারপ্রাইজ-স্তরের নিরাপত্তা, গতি এবং লেটেস্ট ফিচার সহ আপনার অনলাইন অস্তিত্বকে পরবর্তী লেভেলে নিতে পারবেন।</p>
+								<div class="d-flex"><a class="main-header-btn coodiv-text-9 font-weight-bold" href="#services">হোস্টিং সার্ভিস দেখুন <i class="fal fa-arrow-right"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-cell">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8 col-12 white-text">
+                                <h3 class="main-header-title coodiv-text-3">৩০ দিনের মানি ব্যাক গ্যারান্টি</h3>
+                                <p class="main-header-sub-title coodiv-text-10 font-weight-light">আপনি আমাদের সিপ্যানেল হোস্টিং, প্লেস্ক হোস্টিং ফুল রিফান্ড নিতে পারবেন। যদি আমাদের সার্ভিস আপনার পছন্দ না হয় এবং আপনি নতুন কাস্টমার হয়ে থাকেন তবে ৩০ দিনের মধ্যে ক্যান্সেল করলে টাকা ফেরত নিতে পারবেন। বিঃদ্রঃ ডোমেইন এবং সার্ভার এর ক্ষেত্রে প্রযোজ্য নয়।</p>
+                                <div class="d-flex"><a class="main-header-btn coodiv-text-9 font-weight-bold" href="#services">হোস্টিং প্যাকেজ দেখুন <i class="fal fa-arrow-right"></i></a></div>
+							</div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-cell">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8 col-12 white-text">
+                                <h3 class="main-header-title coodiv-text-3">কঠিন নয়, দ্রুত কাজ করার অভিজ্ঞতা নিন</h3>
+                                <p class="main-header-sub-title coodiv-text-9 font-weight-light">কল্পনা করুন যে আপনার সাইটটি মাত্র কয়েক মিনিটের মধ্যে লাইভ হচ্ছে। আপনার হোস্টিং পরিচালনা, কন্ট্রোল প্যানেল ইন্টারফেস পরিচালনা বা ওয়ার্ডপ্রেস কীভাবে ইনস্টল করবেন তা নিয়ে কাজ করার জন্য কোনও ঝামেলা নেই। শুধু এক ক্লিকে সবকিছু প্রস্তুত! আমাদের সহজভাবে পরিচালিত ওয়েব হোস্টিং সেবা দিয়ে, আপনি সময় এবং অর্থ সাশ্রয় করতে পারেন।</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+        <!-- end header -->
+
+        <section class="py-25 border-top" id="services">
+            <div class="container">
+                <div class="row justify-content-start">
+                    <div class="col-md-8 col-12">
+                        <div class="title-default-coodiv-four">
+                            <h5 class="coodiv-text-5 font-weight-bold">সবার জন্য ওয়েব হোস্টিং</h5>
+                            <p class="coodiv-text-9">
+                            আমাদের ওয়েব হোস্টিং এ পাবেন বিগিনার থেকে অ্যাডভান্সড সকল ধরনের ওয়েব হোস্টিং সেবা
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-10 align-items-stretch">
+                    <div class="item col-md-4">
+                        <a href="cloud-hosting.html" class="coodiv-features-box-black-color">
+                            <i style="color: #ff2934;" class="fas fa-cloud"></i>
+                            <h5 class="coodiv-text-8 font-weight-bold mb-0">ক্লাউড ওয়েব <span class="coodiv-text-12 font-weight-light">হোস্টিং</span></h5>
+                            <p class="coodiv-text-11 mb-1"><p>সাইনাপ চার্জ নেই। পে পার ইউজ</p>
+                        </a>
+                    </div>
+
+                    <div class="item col-md-4">
+                        <a href="premium-cpanel.html" class="coodiv-features-box-black-color">
+                            <i style="color: #ee9823;" class="fas fa-compact-disc"></i>
+                            <h5 class="coodiv-text-8 font-weight-bold mb-0">প্রিমিয়াম সিপ্যানেল <span class="coodiv-text-12 font-weight-light">হোস্টিং</span></h5>
+                            <p class="coodiv-text-11 mb-1"><p>মাত্র ৪০০ টাকা প্রতিমাস থেকে শুরু</p>
+                        </a>
+                    </div>
+
+                    <div class="item col-md-4">
+                        <a href="cpanel-reseller.html" class="coodiv-features-box-black-color">
+                            <i style="color: #2ab8ae;" class="fas fa-briefcase"></i>
+                            <h5 class="coodiv-text-8 font-weight-bold mb-0">সিপ্যানেল রিসেলার <span class="coodiv-text-12 font-weight-light">হোস্টিং</span></h5>
+                            <p class="coodiv-text-11 mb-1">মাত্র ২০০ টাকা প্রতিমাস থেকে শুরু</p>
+                        </a>
+                    </div>
+
+                    <div class="item col-md-4">
+                        <a href="cpanel-vps-server.html" class="coodiv-features-box-black-color">
+                            <i style="color: #ffc107;" class="fas fa-server"></i>
+                            <h5 class="coodiv-text-8 font-weight-bold mb-0">সিপ্যানেল ভিপিএস সার্ভার <span class="coodiv-text-12 font-weight-light">হোস্টিং</span></h5>
+                            <p class="coodiv-text-11 mb-1">হোস্টিং এর উপর সর্বোচ্চ কন্ট্রোল পাওয়ার জন্য প্রয়োজন VPS সার্ভার</p>
+                        </a>
+                    </div>
+
+                    <div class="item col-md-4">
+                        <a href="student-hosting.html" class="coodiv-features-box-black-color">
+                            <i style="color: #e91e63;" class="fas fa-graduation-cap"></i>
+                            <h5 class="coodiv-text-8 font-weight-bold mb-0">স্টুডেন্ট হোস্টিং <span class="coodiv-text-12 font-weight-light">জিরো বাজেটে</span></h5>
+                            <p class="coodiv-text-11 mb-1">স্টুডেন্টদের জন্য আমরাই দিচ্ছি সর্বোনিম্ন মাত্র ৳৫০ হোস্টিং</p>
+                        </a>
+                    </div>
+
+                    <div class="item col-md-4">
+                        <a href="bundle-hosting.html" class="coodiv-features-box-black-color">
+                            <i style="color: #ff9800;" class="fas fa-mug-hot"></i>
+                            <h5 class="coodiv-text-8 font-weight-bold mb-0">হোস্টিং বান্ডেল ফ্রী ডোমেইন <span class="coodiv-text-12 font-weight-light">কম্বো</span></h5>
+                            <p class="coodiv-text-11 mb-1">হোস্টিং বান্ডেল, সাথে ডোমেইন সম্পূর্ণ ফ্রী! ১৫০০ টাকা থেকে</p>
+                        </a>
+                    </div>
+
+                    <div class="item col-md-4">
+                        <a href="bdix-budget-hosting.html" class="coodiv-features-box-black-color">
+                            <i style="color: #3f51b5;" class="fab fa-ioxhost"></i>
+                            <h5 class="coodiv-text-8 font-weight-bold mb-0">BDIX বাজেট <span class="coodiv-text-12 font-weight-light">হোস্টিং</span></h5>
+                            <p class="coodiv-text-11 mb-1">মাত্র ১৫০ টাকা প্রতিমাস থেকে শুরু।</p>
+                        </a>
+                    </div>
+                    <div class="item col-md-4">
+                        <a href="bdix-premium-hosting.html" class="coodiv-features-box-black-color">
+                            <i style="color: #03a9f4;" class="fas fa-fire-alt"></i>
+                            <h5 class="coodiv-text-8 font-weight-bold mb-0">BDIX প্রিমিয়াম <span class="coodiv-text-12 font-weight-light">হোস্টিং</span></h5>
+                            <p class="coodiv-text-11 mb-1">মাত্র ৫০০ টাকা প্রতিমাস থেকে শুরু</p>
+                        </a>
+                    </div>
+                    <div class="item col-md-4">
+                        <a href="bdix-reseller-hosting.html" class="coodiv-features-box-black-color">
+                            <i style="color: #607d8b;" class="fas fa-user-cog"></i>
+                            <h5 class="coodiv-text-8 font-weight-bold mb-0">BDIX রিসেলার <span class="coodiv-text-12 font-weight-light">হোস্টিং</span></h5>
+                            <p class="coodiv-text-11 mb-1">মাত্র ২৫০ টাকা প্রতিমাস থেকে শুরু</p>
+                        </a>
+                    </div>
+                    <div class="item col-md-4">
+                        <a href="smm-web-hosting.html" class="coodiv-features-box-black-color">
+                            <i style="color: #9c27b0;" class="fas fa-share-alt"></i>
+                            <h5 class="coodiv-text-8 font-weight-bold mb-0">SMM ওয়েব <span class="coodiv-text-12 font-weight-light">হোস্টিং</span></h5>
+                            <p class="coodiv-text-11 mb-1">মাত্র ২০০&nbsp; টাকা প্রতিমাস থেকে শুরু</p>
+                        </a>
+                    </div>
+                    <div class="item col-md-4">
+                        <a href="dmca-ignored-hosting.html" class="coodiv-features-box-black-color">
+                            <i style="color: #a2fbf3;" class="fas fa-shield-alt"></i>
+                            <h5 class="coodiv-text-8 font-weight-bold mb-0">DMCA ইগনর্ড <span class="coodiv-text-12 font-weight-light">হোস্টিং</span></h5>
+                            <p class="coodiv-text-11 mb-1">মাত্র ১৫০ টাকা প্রতিমাস থেকে শুরু</p>
+                        </a>
+                    </div>
+                    <div class="item col-md-4">
+                        <a href="budget-web-hosting.html" class="coodiv-features-box-black-color">
+                            <i style="color: #19d681;" class="fas fa-memory"></i>
+                            <h5 class="coodiv-text-8 font-weight-bold mb-0">বাজেট ওয়েব <span class="coodiv-text-12 font-weight-light">হোস্টিং</span></h5>
+                            <p class="coodiv-text-11 mb-1">মাত্র ১২৫&nbsp; টাকা প্রতিমাস থেকে শুরু</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="py-20 bg-default-2">
+            <div class="container">
+                <h5 class="title-default-coodiv-two">কেন আমাদের পছন্দ করবেন?</h5>
+
+                <div class="row justify-content-center mt-10">
+                    <div class="col-md-4">
+                        <div class="coodiv-feutres-black-version">
+                            <i style="background: #88f6ec;" class="fad fa-chart-pie"></i>
+                            <div class="text">
+                                <h5 class="coodiv-text-7 font-weight-bold mb-0">৯৯.৯% আপটাইম গ্যারান্টি</h5>
+                                <p class="coodiv-text-11 font-weight-light">ওয়েবসাইট 24×7 অনলাইনে রাখতে আমরা 99.99% আপটাইম গ্যারান্টি নিশ্চিত করি।</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="coodiv-feutres-black-version">
+                            <i style="background: #79f9c0;" class="fad fa-bell"></i>
+                            <div class="text">
+                                <h5 class="coodiv-text-7 font-weight-bold mb-0">সম্পূর্ণ এবং বিনামূল্যে সাপোর্ট</h5>
+                                <p class="coodiv-text-11 font-weight-light">যেকোন প্রশ্নে আপনাকে সাপোর্ট করার জন্য আমরা সার্বক্ষণিক উপলব্ধ।</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="coodiv-feutres-black-version">
+                            <i style="background: #fede48;" class="fad fa-binoculars"></i>
+                            <div class="text">
+                                <h5 class="coodiv-text-7 font-weight-bold mb-0">মানি ব্যাক গ্যারান্টি</h5>
+                                <p class="coodiv-text-11 font-weight-light">আমরা নতুন ক্লায়েন্ট দের জন্য ৩০ দিনের মানি ব্যাক গ্যারান্টি সুবিধা প্রদান করে থাকি।</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-section">
+            <div class="container">
+
+                <div class="row justify-content-between final-footer-area">
+                    <div class="col-md col-12">
+                        <div class="final-footer-area-text"><?html echo $copyright;?></div>
+                    </div>
+                    <div class="col-md col-12 d-flex justify-content-end">
+                        <div class="footer-lang-changer">
+                            <div class="lang-changer-drop-up">
+                                <a class="menu-btn-changer" role="button" id="dropupmenulagchanger" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><i class="fas fa-globe-asia"></i> english</a>
+                                <div class="dropdown-menu dropupmenulagchanger" aria-labelledby="dropupmenulagchanger">
+                                    <a class="dropdown-item" href="#">english</a>
+                                    <a class="dropdown-item" href="#">العربية</a>
+                                    <a class="dropdown-item" href="#">Español</a>
+                                    <a class="dropdown-item" href="#">Nederlands</a>
+                                    <a class="dropdown-item" href="#">Français</a>
+                                    <a class="dropdown-item" href="#">Dansk</a>
+                                    <a class="dropdown-item" href="#">Português</a>
+                                    <a class="dropdown-item" href="#">Deutsch</a>
+                                </div>
+                            </div>
+
+                            <div class="lang-changer-drop-up">
+                                <a class="menu-btn-changer" href="#"><img src="img/flags/usa.svg" alt="" /> united states</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- jquery -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <!-- bootstrap JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- template JavaScript -->
+        <script src="js/template-scripts.js"></script>
+        <!-- flickity JavaScript -->
+        <script src="js/flickity.pkgd.min.js"></script>
+        <!-- carousel JavaScript -->
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <!-- parallax JavaScript -->
+        <script src="js/parallax.min.js"></script>
+        <!-- mailchamp JavaScript -->
+        <script src="js/mailchamp.js"></script>
+        <!-- bootstrap offcanvas -->
+        <script src="js/bootstrap.offcanvas.min.js"></script>
+        <!-- touchSwipe JavaScript -->
+        <script src="js/jquery.touchSwipe.min.js"></script>
+        <!-- seconde style additionel JavaScript -->
+        <script src="js/particles-code.js"></script>
+        <script src="js/particles.js"></script>
+        <script src="js/smoothscroll.js"></script>
+    </body>
+</html>
